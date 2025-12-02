@@ -26,7 +26,6 @@ Context:
 
 # 2. Phase 1 — Semantic Core Extraction
 
-```yaml
 semantic_core:
   event: "changes saved"
   next_action: "user may close window"
@@ -42,25 +41,20 @@ No obligation implied
 3. Phase 2 — Structural Mapping
 English structure:
 
-scss
-コードをコピーする
 (1) notify result
 (2) permit optional action
 Japanese UI-preferred structure:
 
-vbnet
-コードをコピーする
 (1) confirm completion
 (2) allow optional next step
 Mapped structure:
 
-yaml
-コードをコピーする
 structure_map:
   - confirm_completion
   - optional_next_action
   - keep_tone_flat
-4. Phase 3 — Syntactic Optimization
+
+# 4. Phase 3 — Syntactic Optimization
 Rules applied:
 
 Keep sentences short
@@ -71,8 +65,8 @@ Use standard UI expressions used by Google/Microsoft/Apple
 
 Ensure user action is “allowed”, not “required”
 
-5. Phase 4 — Draft Translation (v1)
-コードをコピーする
+# 5. Phase 4 — Draft Translation (v1)
+
 変更は保存されました。
 このウィンドウを閉じても大丈夫です。
 Assessment:
@@ -87,9 +81,8 @@ No stiff phrasing
 
 ΔS(before): 0.24 → ΔS(after draft): 0.15
 
-6. Phase 5 — META Evaluation
-yaml
-コードをコピーする
+# 6. Phase 5 — META Evaluation
+
 evaluation:
   prompt_fidelity: YES
   structural_alignment: TRUE
@@ -99,7 +92,7 @@ evaluation:
 Outcome: PASS
 Refinement needed: minimal (optimize flow)
 
-7. Phase 6 — Recursive Refinement (ΔS Reduction)
+# 7. Phase 6 — Recursive Refinement (ΔS Reduction)
 Adjustments:
 
 unify sentence tone
@@ -110,7 +103,6 @@ refine flow for UI conciseness
 
 Final JA (v2):
 
-コードをコピーする
 変更を保存しました。
 このウィンドウを閉じても大丈夫です。
 Why this is optimal:
@@ -147,11 +139,11 @@ Imperative tone → incorrect for optional action
 Final version withstands all counter-arguments.
 
 9. Final Output
-コードをコピーする
+
 変更を保存しました。
 このウィンドウを閉じても大丈夫です。
-10. Pipeline Summary
-```
+11. Pipeline Summary
+
 pipeline_summary:
   semantic_extraction: SUCCESS
   structural_mapping: SUCCESS
@@ -160,7 +152,7 @@ pipeline_summary:
   meta_evaluation: PASS
   recursive_refinement: APPLIED
   final_output: "変更を保存しました。 このウィンドウを閉じても大丈夫です。"
-```
+
 This example demonstrates how
 Unified Translation OS v1.0
 derives natural, concise, culturally consistent UI/UX Japanese
