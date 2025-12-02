@@ -254,3 +254,23 @@ Created by **Hideyuki Okabe**
 
 Pull requests and research collaborations are welcome.
 
+## Quick Start
+
+Unified Translation OS is a modular translation pipeline:
+
+1. Extract semantic core
+2. Map structures across languages
+3. Apply morphology-aware reasoning
+4. Generate draft translation
+5. Evaluate with META Core
+6. Refine using ΔS reduction
+
+```
+examples/
+  en-ja_uiux_example.md
+  en-ja_marketing_example.md
+  en-et_high_difficulty_example.md
+```
+Use these templates to integrate with your localization workflow.
+
+
