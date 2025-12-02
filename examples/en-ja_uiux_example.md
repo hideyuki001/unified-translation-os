@@ -13,8 +13,6 @@ semantic extraction → structural mapping → refinement → META evaluation.
 Your changes have been saved.
 You can close this window now.
 
-yaml
-コードをコピーする
 
 Context:
 - App/Web UI  
@@ -38,7 +36,7 @@ No obligation implied
 
 "You can..." = optional permission
 
-3. Phase 2 — Structural Mapping
+# 3. Phase 2 — Structural Mapping
 English structure:
 
 (1) notify result
