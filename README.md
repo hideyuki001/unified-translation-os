@@ -249,7 +249,8 @@ MIT License (recommended)
 
 Created by **Hideyuki Okabe**  
  LinkedIn: https://www.linkedin.com/in/hideyuki-okabe-1a2287253/
- GitHub: *(this repository)*
+ 
+ GitHub: https://github.com/hideyuki001
 
 Pull requests and research collaborations are welcome.
 
