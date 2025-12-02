@@ -248,7 +248,7 @@ MIT License (recommended)
 # **💬 Contact**
 
 Created by **Hideyuki Okabe**  
- LinkedIn: *(add your link)*  
+ LinkedIn: https://www.linkedin.com/in/hideyuki-okabe-1a2287253/
  GitHub: *(this repository)*
 
 Pull requests and research collaborations are welcome.
